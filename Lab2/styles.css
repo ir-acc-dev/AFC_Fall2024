@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    background: linear-gradient(rgba(207, 203, 203, 0.5), rgba(162, 161, 161, 0.5)), url('Images/MainBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(240, 237, 237);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Menu, #Hiring {
+    color: rgb(13, 10, 10);
+}
+
+main h1 {
+    margin: 0 0 0.5em 0;
+}
+
+main p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(223, 219, 219, 0.2);
+    color: rgb(13, 10, 10);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(223, 219, 219, 0.2);
+}
+
+form {
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(222, 215, 215, 0.7);
+    opacity: 0.9;
+    font-size: smaller;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 10px 0 0;
+}
+
+.white-image {
+    filter: brightness(0) invert(1);
+    margin-bottom: 0;
+}
