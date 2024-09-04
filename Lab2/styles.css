@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ nav {
     justify-content: center;
     background-color: #555;
     padding: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-weight: 200;
 }
 
 nav ul li a:hover {
@@ -62,6 +64,8 @@ main {
 
 main h1 {
     margin: 0 0 0.5em 0;
+    font-family: 'Montserrat';
+    font-weight:400;
 }
 
 main p {
@@ -70,7 +74,7 @@ main p {
 }
 
 footer {
-    background-color: #333;
+    background-color: #555;
     color: white;
     text-align: center;
     padding: 1em;
@@ -95,6 +99,10 @@ th, td {
     background-color: rgba(223, 219, 219, 0.2);
 }
 
+th {
+    font-weight: 600;
+}
+
 form {
     max-width: 800px;
     padding: 20px;
@@ -103,6 +111,7 @@ form {
     background-color: rgba(222, 215, 215, 0.7);
     opacity: 0.9;
     font-size: smaller;
+
 }
 
 legend {
@@ -131,4 +140,16 @@ button {
 .white-image {
     filter: brightness(0) invert(1);
     margin-bottom: 0;
+}
+
+div {
+    text-align: left;
+}
+
+#tagline {
+    font-style: italic;
+}
+
+legend{
+    font-weight:600;
 }
