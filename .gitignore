@@ -131,3 +131,5 @@ dist
 
 .DS_Store
 .VSCode
+node_modules
+.env
