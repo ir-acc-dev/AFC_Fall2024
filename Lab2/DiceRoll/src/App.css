@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.fa-solid{
+  font-size: 90px;
+}
+
+.dice-container {
+  display: flex; 
+  justify-content: center; /* Centers the dice horizontally */
+  margin-bottom: 20px; /* Adds space below the dice */
+}
+
+i {
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px; /* Adds some space above the button */
+}
