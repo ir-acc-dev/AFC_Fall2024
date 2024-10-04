@@ -1,0 +1,40 @@
+.landing-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('path_to_your_background_image.jpg') no-repeat center center/cover; /* Add a background image */
+    text-align: center;
+  }
+  
+  .landing-title {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
+  }
+  
+  .landing-description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 600px; /* Limit width for better readability */
+    line-height: 1.5; /* Improve spacing between lines */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .landing-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d67b4e; /* Change this to your desired button color */
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .landing-button:hover {
+    background-color: #cbbbb3;  /* A lighter shade for hover effect */
+  }
+  

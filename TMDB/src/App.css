@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/BackgroundImage.jpg');
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh; /* Ensures the background image covers at least the viewport height */
+  margin: 0; /* Removes default body margin */
+  background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+}
+
+
+
