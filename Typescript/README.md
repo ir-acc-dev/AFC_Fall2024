@@ -1,2 +1,0 @@
--D means dev mode
--P production mode
