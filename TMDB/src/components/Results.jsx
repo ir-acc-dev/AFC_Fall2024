@@ -11,7 +11,7 @@ const Results = () => {
     if (!movies || movies.length === 0) {
       navigate('/error');  
     }
-  }, [movies, navigate]);  // Dependency array ensures this runs when movies state changes
+  }, [movies, navigate]);  
 
   return (
     <div>

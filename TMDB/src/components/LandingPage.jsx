@@ -3,7 +3,6 @@ import { useState } from 'react';
 import axios from 'axios';
 import './Landing.css';
 
-
 const LandingPage = () => {
   const navigate = useNavigate();
   const [movies, setMovies] = useState([]);
@@ -22,9 +21,9 @@ const LandingPage = () => {
 
     axios(options)
       .then(response => {
-        setMovies(response.data.results); // Store movie data in state
+        setMovies(response.data.results); 
         console.log(response);
-        navigate('/results', { state: { movies: response.data.results } }); // Pass movies to Results page
+        navigate('/results', { state: { movies: response.data.results } }); 
       })
       .catch(err => console.log(err));
   };
