@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-      "target": "ES2022",       // Ensure this is set to ES6 or higher
-      "module": "commonjs",       // Configure based on your environment
-      "outDir": "./build",
-      "rootDir": "./src"
-    }
-
-  }
