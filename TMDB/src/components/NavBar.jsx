@@ -46,6 +46,8 @@ const NavBar = () => {
       .catch((error) => {
         console.error(error);
       });
+
+    setSearchQuery("")
   };
 
  
@@ -97,6 +99,7 @@ const NavBar = () => {
               handleSearchSubmit();  
             }
           }}
+          autoComplete="off"
           variant="outlined"
           size="small"
           placeholder="Search Movies"

@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('path_to_your_background_image.jpg') no-repeat center center/cover; /* Add a background image */
     text-align: center;
   }
   
